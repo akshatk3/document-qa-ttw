@@ -7,7 +7,7 @@ from langchain_openai import ChatOpenAI
 
 st.title("📄 QA Doc Mbbs ttw")
 
-openai_api_key = os.getenv('OPENAI_API_KEY')
+openai_api_key = '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'
 
 client = OpenAI(api_key=openai_api_key)
 llm_model = "gpt-4o" 
